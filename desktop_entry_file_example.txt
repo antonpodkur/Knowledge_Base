@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=someName
+Comment=
+Exec=/path/to/file
+Icon=/path/to/file
+Terminal=false
+Type=Application 
+ 

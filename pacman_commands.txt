@@ -1,0 +1,14 @@
+
+sudo pacman -Rcns filezilla       - to remove the app completely with its dependencies
+
+pacman -Qdtq                      - find unnecessaty packages
+
+sudo pacman -R $(pacman -Qdtq)    - remove all unnecessary packages
+
+sudo pacman-mirrors --fasttrack 5   - updating mirrorlist
+
+//changing brances in manjaro : stable tasting unstable
+sudo pacman-mirrors --api --set-branch {branch}
+sudo pacman-mirrors --fasttrack 5 && sudo pacman -Syyu
+///////////////////////////////////////////////////////
+
