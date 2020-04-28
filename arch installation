@@ -1,0 +1,9 @@
+(link to installation guide)
+ https://itsfoss.com/install-arch-linux/
+ 
+ sudo pacman -S base-devel
+
+////////////ADDING INTERNET////////////////
+pacman -S dhcpcd
+systemctl start dhcpcd
+systemctl enable dhcpcd
